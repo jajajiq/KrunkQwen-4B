@@ -11,7 +11,7 @@ Download the GGUF model from Hugging Face: https://huggingface.co/Jaj-Ajiq/Krunk
 ## Simple setup with LM Studio
 
 1. Install and open LM Studio.
-2. Import `KrunkQwen-4B-Q4_K_M.gguf`.
+2. Go to Model Search and download `KrunkQwen-4B-Q4_K_M.gguf` (search for KrunkQwen-4B-GGUF).
 3. Open Chat and load the model.
 4. Set context length to `8192` or higher.
 5. Open `SYSTEM_PROMPT.md`.
