@@ -1,8 +1,8 @@
 # KrunkQwen-4B
 
-A small experimental Qwen-3 4B fine-tune for generating KrunkScript locally on edge devices. Can be run on as little as 3 GB VRAM.
+A small experimental Qwen-3 4B fine-tune for generating KrunkScript locally on edge devices. Can be run on as little as 3 GB VRAM. 
 
-A larger and better-validated version is planned. KrunkQwen-4B can produce working KrunkScript for some basic requests and has learned many of the language's syntax and API patterns. However, its small size, limited training coverage and lack of runtime validation mean it may hallucinate APIs, mix in JavaScript syntax, confuse client and server code, or choose the wrong system for a task. For example, a request for a 2D enemy system may incorrectly use `GAME.AI.spawn`, which is intended for 3D AI. The final training loss was approximately 0.4, but this is only a training metric and does not guarantee correct output. Always test generated scripts in the Krunker Editor and ensure the script works as intended.
+A larger and better-validated version is planned. KrunkQwen-4B can produce working KrunkScript for some basic requests and has learned many of the language's syntax and API patterns. However, its small size, limited training coverage and lack of runtime validation mean it may hallucinate APIs, mix in JavaScript syntax, confuse client and server code, or choose the wrong system for a task. For example, a request for a 2D enemy system may incorrectly use `GAME.AI.spawn`, which is intended for 3D AI. The final training loss was approximately 0.4, but this is only a training metric and does not guarantee correct output. Always test generated scripts in the Krunker Editor and ensure the script works as intended. A potential use case for this model can be teaching krunkscript instead of generating it.
 
 ## Download
 
